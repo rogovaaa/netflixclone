@@ -1,0 +1,41 @@
+.modal{
+position: absolute; 
+
+top:0;
+transform: scale(1.5);
+transition: all 100ms ease-in-out;
+transition-delay: 300ms;
+box-shadow: 2px 2px 4px 2px black;
+  border-radius:0 0 5px 5px;
+
+.block{
+    word-break: break-all;
+    font-size: 12px;
+
+    overflow: hidden;
+    background-color: rgb(20, 20, 20);
+    height: 70px;
+    width: 10rem;
+    position: absolute; 
+  
+    bottom:4px;
+    .cardBtns{
+        display: flex;
+        align-items: center;
+        height: 32px;
+        padding: 10px;
+    }
+}
+}
+.preview{
+    width: 10rem;
+    height: 15rem;;
+    position: relative;
+
+    img {
+        border-radius: 5px;
+        max-width: 10rem;
+        cursor: grab;
+    }    
+   
+}

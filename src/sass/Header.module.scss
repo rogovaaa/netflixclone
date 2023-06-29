@@ -1,0 +1,47 @@
+@import 'defaultstyle.scss';
+.header{
+  @include disp(flex,space-between,wrap);
+    align-items: center;
+    padding: 0 120px;
+    height: 85px;
+  button{
+   font-size: 14px;
+    background-color: $color_1 ;
+    border: none;
+    border-radius: 6px;
+  
+    width: 72px;
+    height: 35px;
+  }
+    
+  .section{
+    display:flex;
+    
+    position: relative;
+    svg{
+      position: absolute;
+    
+      left: 17px;
+      top:10px
+    }
+    select{
+      margin-right: 30px;
+  
+      border: 1px solid rgba(255, 255, 255, 0.293);
+       font-size: 15px;
+       border-radius: 6px;
+        background: transparent;
+        padding-left: 45px;
+        width: 135px;
+        height: 35px;
+   
+    }
+    select:hover {outline: none; } 
+    select:focus { border-color: #aaa; 
+      outline: 2px solid white;
+    
+
+    
+} 
+  }
+}

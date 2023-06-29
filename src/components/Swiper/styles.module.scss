@@ -1,0 +1,24 @@
+
+
+.arrow {
+    
+    outline: 0;
+    height: 70px;
+    width: 50px;
+    transition: 0.3s;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+
+    svg path {
+        transition: 0.3s;
+    }
+
+    &:hover svg path {
+        stroke: red;
+    }
+}
+
+.left_arrow {
+    transform: scale(-1, 1);
+}

@@ -1,0 +1,53 @@
+@import 'defaultstyle.scss';
+
+.wrapper{
+    @include disp(flex,center);
+    margin-top: 100px;
+    min-width: 700px;
+    h1{
+        font-size: 48px;
+       
+    }
+    p{font-size: 24px;}
+   
+  
+    button{
+        margin-top: 8px;
+        background-color: $color_1 ;
+        border: none;
+        border-radius: 6px;
+        height: 56px;
+        width: 260px;
+        font-size: 24px;
+    }
+    .log{
+        height: 36px;
+        width: 120px;
+        font-size: 20px;
+    }
+}
+
+.content{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    button{
+        margin-left: 20px;
+    }
+    input{
+        position: relative;
+        border: 1px solid rgba(255, 255, 255, 0.293);
+        border-radius: 6px;
+        height: 56px;
+        width: 290px;
+        padding-left: 20px;
+        background-color: rgba(0, 0, 0, 0.5);
+       
+        font-size: 18px;
+        transition: border-color 0.2s}
+    
+}
+
