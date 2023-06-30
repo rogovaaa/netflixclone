@@ -34,7 +34,6 @@ const Banner = () => {
         </h1>{" "}
         <div className="buttons">
           <button className="button"> Play</button>
-          <button className="button">My list</button>
         </div>
       </div>
 
